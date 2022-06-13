@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@font-face {
+  font-family: "felt";
+  src: url("/src/fonts/FeltThat.ttf");
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+p {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+article {
+  padding: 18px;
+}
+
+header {
+  height: calc(5vh - 18px);
+  width: 100%;
+}
+
+header h1 {
+  opacity: 0;
+  -webkit-animation: opacity 2s 1s forwards;
+          animation: opacity 2s 1s forwards;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  font-size: clamp(1.5rem, 4.5vw, 3rem);
+  font-weight: 200;
+  margin: 0 15vw;
+}
+
+main {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  height: 33vw;
+  width: 33vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-animation: imageEnter 3s forwards;
+          animation: imageEnter 3s forwards;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.item {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.item:nth-child(1) {
+  background: rgba(63, 81, 181, 0.6);
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  z-index: 1;
+  background-image: url("../images/1.png");
+  background-position: center;
+  background-size: cover;
+  -webkit-animation: move 1s;
+          animation: move 1s;
+}
+
+.item:nth-child(2) {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  background-image: url("../images/2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.item:nth-child(3) {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  background-image: url("../images/3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.item:nth-child(4) {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+  background-image: url("../images/4.png");
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  height: calc(15vh - 18px);
+  width: 100%;
+}
+
+footer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer section:nth-child(1) {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  height: 80%;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer section:nth-child(1) div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer section:nth-child(1) div ul li {
+  -webkit-transition: -webkit-transform opacity 0.5s ease-in-out;
+  transition: -webkit-transform opacity 0.5s ease-in-out;
+  transition: transform opacity 0.5s ease-in-out;
+  transition: transform opacity 0.5s ease-in-out, -webkit-transform opacity 0.5s ease-in-out;
+  -webkit-animation: textEnter 0.8s forwards;
+          animation: textEnter 0.8s forwards;
+  opacity: 0;
+}
+
+footer section:nth-child(1) div ul li:nth-child(1) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+footer section:nth-child(1) div ul li:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+footer section:nth-child(1) div div p {
+  -webkit-transition: -webkit-transform opacity 0.5s ease-in-out;
+  transition: -webkit-transform opacity 0.5s ease-in-out;
+  transition: transform opacity 0.5s ease-in-out;
+  transition: transform opacity 0.5s ease-in-out, -webkit-transform opacity 0.5s ease-in-out;
+  -webkit-animation: textEnter 0.8s forwards;
+          animation: textEnter 0.8s forwards;
+  opacity: 0;
+}
+
+footer section:nth-child(1) div div p:first-child {
+  margin-top: 8px;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+footer section:nth-child(1) div div p:nth-child(2) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+footer section:nth-child(2) {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 20%;
+}
+
+footer section:nth-child(2) p {
+  -webkit-animation: opacity 2s 1s forwards;
+          animation: opacity 2s 1s forwards;
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+  opacity: 0;
+}
+
+footer section:nth-child(2) p:nth-child(2) {
+  margin-left: auto;
+}
+
+footer section h2 {
+  opacity: 0;
+  -webkit-animation: opacity 2s 1s forwards;
+          animation: opacity 2s 1s forwards;
+}
+
+@-webkit-keyframes imageEnter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes imageEnter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes textEnter {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0, 250%);
+            transform: translate(0, 250%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+@keyframes textEnter {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0, 250%);
+            transform: translate(0, 250%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+@-webkit-keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .container {
+    height: 45vw;
+    width: 45vw;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
