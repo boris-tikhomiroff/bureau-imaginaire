@@ -48,5 +48,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // setTimeout(annimate, 5500);
+  setTimeout(annimate, 5500);
 });
