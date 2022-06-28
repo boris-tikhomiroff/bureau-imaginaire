@@ -45,7 +45,7 @@ header h1 {
           animation: opacity 2s 1s forwards;
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
-  font-size: clamp(1.5rem, 4.5vw, 3rem);
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
   font-weight: 200;
   margin: 0 15vw;
 }
