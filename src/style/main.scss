@@ -16,13 +16,11 @@
 }
 
 body {
-  // height: 100vh;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  height: 100vh;
+  // min-height: 100vh;
+  // min-height: -webkit-fill-available;
   width: 100%;
   overflow: hidden;
-  // font-family: "abril";
-  // font-family: "Abril Fatface", cursive;
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -226,6 +224,10 @@ footer {
 
   p {
     font-size: 12px;
+  }
+
+  footer {
+    transform: translate(0, -100px);
   }
 }
 
