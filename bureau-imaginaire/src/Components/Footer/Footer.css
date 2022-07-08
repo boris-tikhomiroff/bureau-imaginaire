@@ -1,3 +1,10 @@
 footer {
-   
+   margin-top: 3vh;
+   bottom: 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
