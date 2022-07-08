@@ -4,8 +4,8 @@ import image from "../img/logo_carre_BI.png";
 
 export default function Logo() {
     return (
-        <div className="logo" style={{textAlign: 'center'}}>
-            <img src={image} alt="Logo" width="200"></img>
+        <div className="logo_home" style={{textAlign: 'center'}}>
+            <img src={image} alt="Logo" width="400"></img>
         </div>
     )
 }

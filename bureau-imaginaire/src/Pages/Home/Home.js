@@ -1,9 +1,11 @@
 import * as React from "react";
 
-import {Header} from "../Components/Header/Header.js"
-import {Footer} from "../Components/Footer/Footer.js"
+import {Header} from "../../Components/Header/Header.js"
+import {Footer} from "../../Components/Footer/Footer.js"
 
-import Logo from "../Components/Logo.js";
+import './Home.css';
+
+import Logo from "../../Components/Logo.js";
 
 
 export function Home() {

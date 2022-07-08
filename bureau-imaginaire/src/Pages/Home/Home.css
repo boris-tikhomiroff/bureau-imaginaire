@@ -1,0 +1,35 @@
+/*-----------------------HOME---------------------------*/
+.logo_home {
+    margin-top: 3vh;
+}
+.container-presta {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.callAction {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 3vh;
+}
+
+.marquise {
+    font-size: 28px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.section-realisation-home {
+    text-align: center;
+}
+
+.section-realisation-home div {
+    width: 40%;
+    margin: 3vh auto;
+}
+
+.container-enjeux {
+    margin: 10vh 0;
+    text-align: center;
+}
