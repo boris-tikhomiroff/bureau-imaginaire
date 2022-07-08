@@ -76,6 +76,35 @@ export default function FormFabriqueProjetComponent(){
                     
                 </fieldset>
 
+                
+                {/*------------------------------Nmbr de session--------------------------- */}
+
+                <fieldset className="form-field field-nbr-session">
+
+                    <legend>Nombre de session</legend>
+                    
+                        <div>
+                            <input type="radio" name="session" id="1session" value="1session"/>
+                            <label for="1session">Une seule session</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="session" id="XsessionJour" value="XsessionJour"/>
+                            <label for="XsessionJour">Plusieurs sessions dans la même journée</label>
+                        </div>  
+
+                        <div>
+                            <input type="radio" name="session" id="XsessionSemaine" value="XsessionSemaine"/>
+                            <label for="XsessionSemaine">Plusieurs sessions dans la même semaine</label>
+                        </div> 
+
+                        <div>
+                            <input type="radio" name="session" id="XsessionAnne" value="XsessionAnne"/>
+                            <label for="XsessionAnne">Plusieurs sessions dans l'année</label>
+                        </div> 
+                    
+                </fieldset>
+
             </form>
         </div>
     )

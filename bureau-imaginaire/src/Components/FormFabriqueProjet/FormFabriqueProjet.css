@@ -28,4 +28,13 @@ label {
     width: 45%;
 }
 
+.field-nbr-session {
+    width: 70%;
+}
+
+.field-nbr-session div {
+    display: flex;
+    flex-direction: column;
+}
+
 
