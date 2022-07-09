@@ -37,8 +37,8 @@ export default function FormFabriqueProjetComponent(){
                         </div> 
 
                         <div>
-                            <input type="radio" name="duree" id="autre"  value="autre"/>
-                            <label for="autre">Autre</label>
+                            <input type="radio" name="duree" id="autreDuree"  value="autreDuree"/>
+                            <label for="autreDuree">Autre</label>
                         </div> 
                     
                 </fieldset>
@@ -84,28 +84,313 @@ export default function FormFabriqueProjetComponent(){
                     <legend>Nombre de session</legend>
                     
                         <div>
-                            <input type="radio" name="session" id="1session" value="1session"/>
                             <label for="1session">Une seule session</label>
+                            <input type="radio" name="session" id="1session" value="1session"/>
+                            
                         </div>
 
                         <div>
-                            <input type="radio" name="session" id="XsessionJour" value="XsessionJour"/>
                             <label for="XsessionJour">Plusieurs sessions dans la même journée</label>
+                            <input type="radio" name="session" id="XsessionJour" value="XsessionJour"/>
                         </div>  
 
                         <div>
-                            <input type="radio" name="session" id="XsessionSemaine" value="XsessionSemaine"/>
                             <label for="XsessionSemaine">Plusieurs sessions dans la même semaine</label>
+                            <input type="radio" name="session" id="XsessionSemaine" value="XsessionSemaine"/>
                         </div> 
 
                         <div>
-                            <input type="radio" name="session" id="XsessionAnne" value="XsessionAnne"/>
                             <label for="XsessionAnne">Plusieurs sessions dans l'année</label>
+                            <input type="radio" name="session" id="XsessionAnne" value="XsessionAnne"/>
                         </div> 
                     
                 </fieldset>
 
+                 {/*------------------------------Type de jeu--------------------------- */}
+
+                 <fieldset className="form-field field-type-jeu">
+
+                    <legend>Type de jeu</legend>
+
+                    <div>
+                        <label for="escapeGame">Escape Game</label>
+                        <input type="radio" name="type" id="escapeGame" value="escapeGame"/>
+                    </div>
+
+                    <div>
+                        <label for="jeuDenquete">Jeu d'enquête</label>
+                        <input type="radio" name="type" id="jeuDenquete" value="jeuDenquete"/>      
+                    </div>  
+
+                    <div>
+                        <label for="coachingScenarise">Coaching scénarisé</label>
+                        <input type="radio" name="type" id="coachingScenarise" value="coachingScenarise"/>                       
+                    </div> 
+
+                    <div>
+                        <label for="jeuPisteScenarise">Jeu de piste scénarisé</label>
+                        <input type="radio" name="type" id="jeuPisteScenarise" value="jeuPisteScenarise"/>           
+                    </div> 
+
+                    <div>
+                        <label for="jeuSocietePersonnalise">Jeu de société personnalisé</label>
+                        <input type="radio" name="type" id="jeuSocietePersonnalise" value="jeuSocietePersonnalise"/>   
+                    </div> 
+
+                    <div>
+                        <label for="autreJeu">Autre</label>
+                        <input type="radio" name="type" id="autreJeu" value="autreJeu"/> 
+                    </div> 
+
+                </fieldset>
+
+                {/*------------------------------DIFFICULTE--------------------------- */}
+
+                <fieldset className="form-field field-difficulte">
+
+                    <legend>Difficulté</legend>
+                    
+                        <div>
+                            <input type="radio" name="difficulte" id="grandPublic" value="grandPublic"/>
+                            <label for="grandPublic">Grand public</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="difficulte" id="joueursHabitue" value="joueursHabitue"/>
+                            <label for="joueursHabitue">Joueurs habitués</label>
+                        </div>  
+
+                        <div>
+                            <input type="radio" name="difficulte" id="specialistes" value="specialistes"/>
+                            <label for="specialistes">Spécialistes du sujet / thème</label>
+                        </div> 
+                    
+                </fieldset>
+
+                {/*------------------------------HANDICAP--------------------------- */}
+
+                <fieldset className="form-field field-handicap">
+
+                    <legend>Un handicap à prendre en compte ?</legend>
+                    
+                        <div>
+                            <input type="radio" name="handicap" id="handicapP" value="handicapP"/>
+                            <label for="handicapP">Oui : physique</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="handicap" id="handicapM" value="handicapM"/>
+                            <label for="handicapM">Oui : mental</label>
+                        </div>  
+
+                        <div>
+                            <input type="radio" name="handicap" id="handicapPM" value="handicapPM"/>
+                            <label for="handicapPM">Oui : physique & mental</label>
+                        </div> 
+
+                        <div>
+                            <input type="radio" name="handicap" id="HandicapNull" value="HandicapNull"/>
+                            <label for="HandicapNull">Aucun handicap</label>
+                        </div> 
+                    
+                </fieldset>
+
+                 {/*------------------------------BUDGET--------------------------- */}
+
+                 <fieldset className="form-field field-budget">
+
+                    <legend>Budget alloué</legend>
+
+                    <div>
+                        <input type="radio" name="budget" id="approximatif" value="approximatif"/>
+                        <label for="approximatif">Budget approximatif</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="budget" id="ferme" value="ferme"/>
+                        <label for="ferme">Budget ferme</label>
+                    </div>  
+
+                    <div>
+                        <input type="radio" name="budget" id="sansBudget" value="sansBudget"/>
+                        <label for="sansBudget">Pas de notion pour le budget</label>
+                    </div> 
+
+                </fieldset>
+
+                {/*------------------------------Lieu--------------------------- */}
+
+                <fieldset className="form-field field-lieu">
+
+                    <legend>Lieu</legend>
+
+                    <div>
+                        <input type="radio" name="lieu" id="entreprise" value="entreprise"/>
+                        <label for="entreprise">Dans mon entreprise</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="lieu" id="lieuPrivatiser" value="lieuPrivatiser"/>
+                        <label for="lieuPrivatiser">Dans un lieu à privatiser</label>
+                    </div>  
+
+                    <div>
+                        <input type="radio" name="lieu" id="voiePublique" value="voiePublique"/>
+                        <label for="voiePublique">Sur la voie publique</label>
+                    </div> 
+
+                    <div>
+                        <input type="radio" name="lieu" id="autreLieu" value="autreLieu"/>
+                        <label for="autreLieu">Autre</label>
+                    </div> 
+
+                </fieldset>
+
+                {/*------------------------------ZONE GEOGRAPHIQUE--------------------------- */}
+
+                <fieldset className="form-field field-zone-geographique">
+
+                    <legend>Zone géographique</legend>
+
+                    <div>
+                        <label for="paysLoire">Pays de la Loire</label>
+                        <input type="radio" name="zone" id="paysLoire" value="paysLoire"/>
+                    </div>
+
+                    <div>
+                        <label for="ileDeFrance">Ile de France</label>
+                        <input type="radio" name="zone" id="ileDeFrance" value="ileDeFrance"/>                       
+                    </div>  
+
+                    <div>
+                        <label for="bretagne">Bretagne</label>
+                        <input type="radio" name="zone" id="bretagne" value="bretagne"/>                     
+                    </div> 
+
+                    <div>
+                        <label for="ValDeLoire">Centre Val-de-Loire</label>
+                        <input type="radio" name="zone" id="ValDeLoire" value="ValDeLoire"/>                 
+                    </div> 
+
+                    <div>
+                        <label for="normandie">Normandie</label>
+                        <input type="radio" name="zone" id="normandie" value="normandie"/>                 
+                    </div> 
+
+                    <div>
+                        <label for="autreZone">Autre</label>
+                        <input type="radio" name="zone" id="autreZone" value="autreZone"/>                 
+                    </div> 
+
+                </fieldset>
+
+                {/*------------------------------ENJEUX OBJECTIFS--------------------------- */}
+
+                <fieldset className="form-field field-enjeux">
+
+                    <legend>Enjeux & objectifs</legend>
+
+                    <div>
+                        <label for="teamBuilding">TeamBuilding</label>
+                        <input type="radio" name="enjeux" id="teamBuilding" value="teamBuilding"/>
+                    </div>
+
+                    <div>
+                        <label for="profilEvolutif">Identifier des profils évolutifs</label>
+                        <input type="radio" name="enjeux" id="profilEvolutif" value="profilEvolutif"/>                       
+                    </div>  
+
+                    <div>
+                        <label for="communication">Développer la communication</label>
+                        <input type="radio" name="enjeux" id="communication" value="communication"/>                     
+                    </div> 
+
+                    <div>
+                        <label for="softskills">Travailler des softskills</label>
+                        <input type="radio" name="enjeux" id="softskills" value="softskills"/>                 
+                    </div> 
+
+                    <div>
+                        <label for="creativiteAgilite">Développer la créativité et l'agilité</label>
+                        <input type="radio" name="enjeux" id="creativiteAgilite" value="creativiteAgilite"/>                 
+                    </div> 
+
+                    <div>
+                        <label for="autreEnjeux">Autre</label>
+                        <input type="radio" name="enjeux" id="autreEnjeux" value="autreEnjeux"/>                 
+                    </div> 
+
+                </fieldset>
+
+                {/*------------------------------THEME--------------------------- */}
+            <div className="container-themeAnim">
+                <fieldset className="form-field field-theme">
+
+                    <legend>Choix du thème / sujet</legend>
+
+                    <div>
+                        <label for="themeImpose">J'ai un thème imposé</label>
+                        <input type="radio" name="theme" id="themeImpose" value="themeImpose"/>   
+                    </div>
+
+                    <div>
+                        <label for="sansTheme">Le thème est proposé par le Bureau Imaginaire</label>
+                        <input type="radio" name="theme" id="sansTheme" value="sansTheme"/> 
+                    </div>  
+
+                </fieldset>
+
+                {/*------------------------------ANIMATION--------------------------- */}
+
+                <fieldset className="form-field field-animation">
+
+                    <legend>Méthode d'animation</legend>
+
+                    <div>
+                        <label for="animAutonome">Jeu animé de manière autonome</label>
+                        <input type="radio" name="animation" id="animAutonome" value="animAutonome"/>   
+                    </div>
+
+                    <div>
+                        <label for="animBureau">Jeu animé par le Bureau Imaginaire</label>
+                        <input type="radio" name="animation" id="animBureau" value="animBureau"/> 
+                    </div>  
+
+                </fieldset>
+            </div>
+                {/*------------------------------CONTENU NUMERIQUE--------------------------- */}
+
+                <fieldset className="form-field field-contenu-numerique">
+
+                    <legend>Contenu numérique</legend>
+
+                    <div>
+                        <label for="avecOutil">Je souhaite éviter les outils numériques</label>
+                        <input type="radio" name="contenu" id="avecOutil" value="avecOutil"/>   
+                    </div>
+
+                    <div>
+                        <label for="sansOutil">Je souhaite que le jeu intègre des outils numériques</label>
+                        <input type="radio" name="contenu" id="sansOutil" value="sansOutil"/> 
+                    </div>  
+
+                    <div>
+                        <label for="sansAvis">Je n'ai pas d'avis</label>
+                        <input type="radio" name="contenu" id="sansAvis" value="sansAvis"/> 
+                    </div>  
+
+                </fieldset>
+
+
             </form>
+
+            <div>
+                <h2 className="sous-titre">Récapitulatif de votre projet : </h2>
+                <ol>
+
+                </ol>
+            </div>
+            <button type="button" className="envoiDevis">Envoyer votre projet</button>
         </div>
     )
 }

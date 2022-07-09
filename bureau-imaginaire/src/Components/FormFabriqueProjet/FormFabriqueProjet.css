@@ -25,16 +25,63 @@ label {
 }
 
 .field-nbr-participant {
-    width: 45%;
+    width: 40%;
 }
 
 .field-nbr-session {
-    width: 70%;
+    width: 75%;
 }
 
-.field-nbr-session div {
+.field-type-jeu {
+    width: 60%;
+}
+
+.field-difficulte {
+    width: 40%;
+}
+
+.field-handicap {
+    width: 55%;
+}
+
+.field-budget {
+    width: 45%;
+}
+
+.field-lieu {
+    width: 55%;
+}
+
+.field-zone-geographique {
+    width: 70%
+}
+
+.field-enjeux {
+    width: 85%;
+}
+
+.field-theme {
+    width: 45%;
+}
+
+.field-animation {
+    width: 45%;
+}
+
+.field-contenu-numerique {
+    width: 60%;
+}
+
+
+.field-nbr-session div, .field-type-jeu div, .field-zone-geographique div, .field-enjeux div, .field-theme div,
+.field-animation div, .field-contenu-numerique div {
     display: flex;
     flex-direction: column;
 }
+
+.container-themeAnim {
+    display: flex;
+}
+
 
 
