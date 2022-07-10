@@ -1,3 +1,4 @@
+/*--------------------------GENERAL--------------------------*/
 .form-field {
     padding: 2vh;
     margin: 5vh auto;
@@ -20,60 +21,97 @@ label {
     margin: .4rem;
 }
 
+/*--------------------------DUREE--------------------------*/
+
 .field-duree {
-    width: 45%;
-}
-
-.field-nbr-participant {
-    width: 40%;
-}
-
-.field-nbr-session {
-    width: 75%;
-}
-
-.field-type-jeu {
-    width: 60%;
-}
-
-.field-difficulte {
-    width: 40%;
-}
-
-.field-handicap {
-    width: 55%;
-}
-
-.field-budget {
-    width: 45%;
-}
-
-.field-lieu {
-    width: 55%;
-}
-
-.field-zone-geographique {
-    width: 70%
-}
-
-.field-enjeux {
     width: 85%;
 }
 
+/*--------------------------PARTICIPANT--------------------------*/
+
+.field-nbr-participant {
+    width: 75%;
+}
+
+/*--------------------------SESSION--------------------------*/
+
+.field-nbr-session {
+    width: 95%;
+    text-align: center;
+}
+
+.field-nbr-session label {
+    font-size: 15px;
+}
+
+/*--------------------------TYPE DE JEU--------------------------*/
+
+.field-type-jeu {
+    padding: 1vh;
+    width: 95%;
+    text-align: center;
+}
+
+/*--------------------------DIFFICULTE--------------------------*/
+
+.field-difficulte {
+    width: 90%;
+}
+
+/*--------------------------HANDICAP--------------------------*/
+
+.field-handicap {
+    width: 95%;
+}
+
+/*--------------------------BUDGET--------------------------*/
+
+.field-budget {
+    width: 85%;
+}
+
+/*--------------------------LIEU--------------------------*/
+
+.field-lieu {
+    width: 90%;
+}
+
+/*--------------------------ZONE GEOGRAPHIQUE--------------------------*/
+
+.field-zone-geographique {
+    width: 95%
+}
+
+/*--------------------------ENJEUX--------------------------*/
+
+.field-enjeux {
+    width: 99%;
+    text-align: center;
+}
+
+/*--------------------------THEME--------------------------*/
+
 .field-theme {
+    text-align: center;
     width: 45%;
 }
+
+/*--------------------------ANIMATION--------------------------*/
 
 .field-animation {
-    width: 45%;
+    text-align: center;
+    width: 55%;
 }
+
+/*--------------------------CONTENU--------------------------*/
 
 .field-contenu-numerique {
-    width: 60%;
+    width: 90%;
+    text-align: center;
 }
 
 
-.field-nbr-session div, .field-type-jeu div, .field-zone-geographique div, .field-enjeux div, .field-theme div,
+.field-nbr-session div, .field-type-jeu div, .field-handicap div, .field-budget div, .field-lieu div, .field-zone-geographique div, .field-enjeux div, .field-theme div,
 .field-animation div, .field-contenu-numerique div {
     display: flex;
     flex-direction: column;

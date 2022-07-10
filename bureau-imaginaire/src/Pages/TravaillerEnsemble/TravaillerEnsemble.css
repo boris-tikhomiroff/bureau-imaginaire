@@ -1,0 +1,17 @@
+.containerEnsemble {
+    width: 80%;
+    margin: auto;
+}
+
+.containerEnsemble p {
+    font-family: 'Avenir';
+    text-align: justify; 
+    font-weight: 500;
+    font-size: 18px;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    columns-gap: 40px;
+}

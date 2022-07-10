@@ -86,7 +86,6 @@ export default function FormFabriqueProjetComponent(){
                         <div>
                             <label for="1session">Une seule session</label>
                             <input type="radio" name="session" id="1session" value="1session"/>
-                            
                         </div>
 
                         <div>
@@ -174,23 +173,23 @@ export default function FormFabriqueProjetComponent(){
                     <legend>Un handicap à prendre en compte ?</legend>
                     
                         <div>
-                            <input type="radio" name="handicap" id="handicapP" value="handicapP"/>
                             <label for="handicapP">Oui : physique</label>
+                            <input type="radio" name="handicap" id="handicapP" value="handicapP"/>                       
                         </div>
 
                         <div>
-                            <input type="radio" name="handicap" id="handicapM" value="handicapM"/>
                             <label for="handicapM">Oui : mental</label>
+                            <input type="radio" name="handicap" id="handicapM" value="handicapM"/>                    
                         </div>  
 
                         <div>
-                            <input type="radio" name="handicap" id="handicapPM" value="handicapPM"/>
                             <label for="handicapPM">Oui : physique & mental</label>
+                            <input type="radio" name="handicap" id="handicapPM" value="handicapPM"/>                     
                         </div> 
 
                         <div>
-                            <input type="radio" name="handicap" id="HandicapNull" value="HandicapNull"/>
                             <label for="HandicapNull">Aucun handicap</label>
+                            <input type="radio" name="handicap" id="HandicapNull" value="HandicapNull"/>                     
                         </div> 
                     
                 </fieldset>
@@ -202,18 +201,18 @@ export default function FormFabriqueProjetComponent(){
                     <legend>Budget alloué</legend>
 
                     <div>
-                        <input type="radio" name="budget" id="approximatif" value="approximatif"/>
                         <label for="approximatif">Budget approximatif</label>
+                        <input type="radio" name="budget" id="approximatif" value="approximatif"/>                 
                     </div>
 
                     <div>
-                        <input type="radio" name="budget" id="ferme" value="ferme"/>
                         <label for="ferme">Budget ferme</label>
+                        <input type="radio" name="budget" id="ferme" value="ferme"/>                 
                     </div>  
 
                     <div>
-                        <input type="radio" name="budget" id="sansBudget" value="sansBudget"/>
                         <label for="sansBudget">Pas de notion pour le budget</label>
+                        <input type="radio" name="budget" id="sansBudget" value="sansBudget"/>                 
                     </div> 
 
                 </fieldset>
@@ -225,23 +224,23 @@ export default function FormFabriqueProjetComponent(){
                     <legend>Lieu</legend>
 
                     <div>
-                        <input type="radio" name="lieu" id="entreprise" value="entreprise"/>
                         <label for="entreprise">Dans mon entreprise</label>
+                        <input type="radio" name="lieu" id="entreprise" value="entreprise"/>
                     </div>
 
                     <div>
-                        <input type="radio" name="lieu" id="lieuPrivatiser" value="lieuPrivatiser"/>
                         <label for="lieuPrivatiser">Dans un lieu à privatiser</label>
+                        <input type="radio" name="lieu" id="lieuPrivatiser" value="lieuPrivatiser"/>                
                     </div>  
 
                     <div>
-                        <input type="radio" name="lieu" id="voiePublique" value="voiePublique"/>
                         <label for="voiePublique">Sur la voie publique</label>
+                        <input type="radio" name="lieu" id="voiePublique" value="voiePublique"/> 
                     </div> 
 
                     <div>
-                        <input type="radio" name="lieu" id="autreLieu" value="autreLieu"/>
                         <label for="autreLieu">Autre</label>
+                        <input type="radio" name="lieu" id="autreLieu" value="autreLieu"/>               
                     </div> 
 
                 </fieldset>
@@ -301,17 +300,17 @@ export default function FormFabriqueProjetComponent(){
                     </div>  
 
                     <div>
-                        <label for="communication">Développer la communication</label>
+                        <label for="communication">Communication</label>
                         <input type="radio" name="enjeux" id="communication" value="communication"/>                     
                     </div> 
 
                     <div>
-                        <label for="softskills">Travailler des softskills</label>
+                        <label for="softskills">Softskills</label>
                         <input type="radio" name="enjeux" id="softskills" value="softskills"/>                 
                     </div> 
 
                     <div>
-                        <label for="creativiteAgilite">Développer la créativité et l'agilité</label>
+                        <label for="creativiteAgilite">Créativité et Agilité</label>
                         <input type="radio" name="enjeux" id="creativiteAgilite" value="creativiteAgilite"/>                 
                     </div> 
 

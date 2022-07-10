@@ -8,7 +8,7 @@ import FormFabriqueProjetComponent from "../../Components/FormFabriqueProjet/For
 export function FabriqueProjet() {
     return (
         <div>
-            <Header />
+            <Header /> 
                 <FormFabriqueProjetComponent />
             <Footer />
         </div>

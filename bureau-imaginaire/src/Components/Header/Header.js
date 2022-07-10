@@ -11,7 +11,7 @@ export function Header (){
                 <ul>
                     <li><Link to="/NosRealisations">Nos réalisations</Link></li>
                     <li><Link to="/APropos">Qui sommes-nous?</Link></li>
-                    <Link to="/"><li><img src={image} alt="Logo" width="170"></img></li></Link>
+                    <li><Link to="/"><img src={image} alt="Logo" width="170"></img></Link></li>
                     <li><Link to="/TravaillerEnsemble">Travailler ensemble</Link></li>
                     <li><Link to="/FabriqueProjet">La Fabrique à Projets</Link></li>
                 </ul>
