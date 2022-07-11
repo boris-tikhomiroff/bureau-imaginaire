@@ -26,6 +26,16 @@ export function TravaillerEnsemble(){
 
                 </div>
 
+                <section className="sectionConstructionProjet">
+                    <ol>
+                        <li>Réunion d’échange pour définir votre projet et votre contexte.</li>
+                        <li>Présentation du devis, d’un rétroplanning.</li>
+                        <li>Points d’étapes et de validations.</li>
+                        <li>Livraison du produit</li>
+                        <li>Retour d’expérience sur la base de mini enquête de satifaction </li>
+                    </ol>
+                </section>
+
             <Footer />
 
         </div>

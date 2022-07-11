@@ -40,8 +40,10 @@ label {
     text-align: center;
 }
 
-.field-nbr-session label {
-    font-size: 15px;
+@media (max-width: 768px) {
+    .field-nbr-session label {
+        font-size: 15px;
+    }
 }
 
 /*--------------------------TYPE DE JEU--------------------------*/
