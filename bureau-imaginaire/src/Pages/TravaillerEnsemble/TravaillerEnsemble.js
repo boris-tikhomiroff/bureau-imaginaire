@@ -12,7 +12,7 @@ export function TravaillerEnsemble(){
 
                 <h1 className="titre">Travailler Ensemble</h1>
 
-                <div className="flex containerEnsemble">
+                <article className="flex containerEnsemble">
 
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -24,16 +24,66 @@ export function TravaillerEnsemble(){
                         using 'Content here, content here', making it look like readable English.
                     </p>
 
-                </div>
+                </article>
 
-                <section className="sectionConstructionProjet">
-                    <ol>
-                        <li>Réunion d’échange pour définir votre projet et votre contexte.</li>
-                        <li>Présentation du devis, d’un rétroplanning.</li>
-                        <li>Points d’étapes et de validations.</li>
-                        <li>Livraison du produit</li>
-                        <li>Retour d’expérience sur la base de mini enquête de satifaction </li>
-                    </ol>
+                <section className="grid">
+
+                    {/*Column 1 */}
+
+                    <article className="card"></article>
+                    <article className="card">
+                        <p>1</p>
+                    </article>
+                    <article className="card">
+                        <p>Réunion d’échange pour définir votre projet et votre contexte</p>
+                    </article>
+
+
+                    {/*Column 2 */}
+
+                    <div className="card"></div>
+                    <article className="card">
+                        <p>Présentation du devis, d’un rétroplanning</p>
+                    </article>
+                    <article className="card">
+                        <p>2</p>
+                    </article>
+
+
+                    {/*Column 3 */}
+
+                    <article className="card"></article>
+                    <article className="card">
+                        <p>3</p>
+                    </article>
+                    <article className="card">
+                        <p>Points d’étapes et de validations</p>
+                    </article>
+
+
+                    {/*Column 4 */}
+
+                    <article className="card"></article>
+                    <article className="card">
+                        <p>Livraison du produit</p>
+                    </article>
+                    <article className="card">
+                        <p>4</p>
+                    </article>
+
+
+                    {/*Column 5 */}
+                    
+                    <article className="card"></article>
+                    <article className="card">
+                        <p>Retour d’expérience sur la base de mini enquête de satisfaction</p>
+                    </article>
+                    <article className="card">
+                        <p>5</p>
+                    </article>
+
+                   
+                    
                 </section>
 
             <Footer />
