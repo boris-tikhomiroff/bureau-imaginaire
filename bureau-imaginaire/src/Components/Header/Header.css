@@ -78,15 +78,13 @@ nav ul li a{
     .mobile-menu-burger {
         width: 20px;
         height: 20px;
-        /* background: transparent; */
+        background: transparent;
         border: none;
         /* color: inherit; */
         display: block;
         position: fixed;
         top: 1;
         right: 2em;
-       
-        background-color: white ;
     }
 
     .mobile-menu-burger:hover {
@@ -100,13 +98,12 @@ nav ul li a{
         position: relative;
         border-radius: 3px;
         transition: all .5s ease-in-out;
-        
-
+        background-color: #2D2B2B;
     }
 
 
     .show-nav .burger-bar, .show-nav .burger-bar::after, .show-nav .burger-bar::before {
-        
+        background-color: #fff;
     }
 
     .burger-bar::before, .burger-bar::after {

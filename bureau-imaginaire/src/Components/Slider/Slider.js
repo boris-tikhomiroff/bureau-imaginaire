@@ -11,6 +11,10 @@ import { Carousel } from 'react-responsive-carousel';
 
 import './Slider.css'
 
+
+
+
+
 export function Slider(){
 
     const data = [
@@ -32,6 +36,8 @@ export function Slider(){
         }
 
     ]
+
+
 
     return (
         <Carousel 
