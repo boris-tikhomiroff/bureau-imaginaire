@@ -1,8 +1,5 @@
 import * as React from "react";
 
-import {Header} from "../../Components/Header/Header.js"
-import {Footer} from "../../Components/Footer/Footer.js"
-
 import './Home.css';
 
 import Logo from "../../Components/Logo.js";
@@ -11,9 +8,6 @@ import Logo from "../../Components/Logo.js";
 export function Home() {
     return (
       <div>
-
-        <Header />
-
         <main>
 
           <Logo />
@@ -69,9 +63,6 @@ export function Home() {
           </div>
 
         </main>
-
-        <Footer />
-
       </div>
     )
 }

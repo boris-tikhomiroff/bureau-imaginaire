@@ -6,7 +6,7 @@ export default function FormFabriqueProjetComponent(){
     return (
         <div className="form-container-fabrique">
 
-            <h2 className="title">Construisez votre projet depuis notre Fabrique :</h2>
+            <h2 className="sous-titre">Construisez votre projet depuis notre Fabrique :</h2>
 
             <form className="form-fabrique">
 

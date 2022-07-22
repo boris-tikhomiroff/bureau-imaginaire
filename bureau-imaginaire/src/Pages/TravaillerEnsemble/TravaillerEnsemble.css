@@ -1,8 +1,6 @@
 .containerEnsemble {
-    width: 80%;
-    margin: auto;
+    margin: 1vh 6vw;
 }
-
 
 .grid {
     display: grid;

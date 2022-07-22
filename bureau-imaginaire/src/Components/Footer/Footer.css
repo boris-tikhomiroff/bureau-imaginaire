@@ -1,15 +1,49 @@
 footer {
-    margin: 3vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    left: 0;
     bottom: 0;
+    background-color: #2D2B2B;
+    margin-top: 10vh;
+}
+
+footer img {
+    position: absolute;
+    right: 45%;
+    bottom: 75%;
 }
 
 footer ul {
-    display: flex;
-    justify-content: space-around;
+    padding: 2vh 2vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3vh;
+    width: 90%;
+    text-align: center;
+    margin-top: 20vw;
 }
 
 footer ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Avenir";
 }
+
+.footer-bottom {
+    width: 100%;
+    background-color: #1c1a1a;
+    color: white;
+    text-align: end;
+    margin-top: 3vh;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    font-family: "Avenir";
+    margin: .7vh 1vw;
+    color: #ffffff7e;
+}
+

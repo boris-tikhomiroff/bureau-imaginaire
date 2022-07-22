@@ -5,17 +5,66 @@
     list-style: none;
 }
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-top: 15vh;
+}
 /*-----------------------GENERAL----------------------------*/
+
 .titre {
+    font-size: 35px;
     margin: 2vh;
-    font-family: 'Avenir';
+    font-family: 'Abril Fatface';
     text-align: center;
 }
+
 .sous-titre {
+    font-size: 25px;
+    margin: 10vh 6vw 7vh 6vw;
+    color: #CA412F;
+    font-family: "Abril Fatface";
+    text-transform: uppercase;
     text-align: center;
-    margin: 3vh 0;
 }
 
 .flex {
     display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.desc {
+    font-size: 17px;
+    font-family: 'Avenir';
+}
+
+.grid {
+    margin: 0 10vw;
+}
+
+.callAction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Avenir';
+}
+
+.callAction p {
+    font-size: 17px;
+}
+
+.callAction button {
+    background-color: #CA412F;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #FFF;
+    border: none;
+    padding: 3vh 1.5vw;
+    font-size: 13px;
 }

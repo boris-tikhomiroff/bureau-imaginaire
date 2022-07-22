@@ -2,16 +2,29 @@
 .logo_home {
     margin-top: 3vh;
 }
+
 .container-presta {
     text-align: center;
-    margin-top: 10vh;
+} 
+
+.container-presta ol li {
+    font-family: "Abril FatFace";
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 8vh 0;
+}
+
+.container-presta ol li:nth-child(even){
+    margin-left: 45vw;
+}
+
+.container-presta ol li:nth-child(odd){
+    margin-right: 35vw;
 }
 
 .callAction {
     display: flex;
-    justify-content: center;
-    gap: 3vw;
-    margin-top: 3vh;
+    justify-content: space-between;
 }
 
 .marquise {
@@ -32,4 +45,10 @@
 .container-enjeux {
     margin: 10vh 0;
     text-align: center;
+}
+
+@media (max-width: 500px) {
+    .logo_home img {
+        width: 250px;
+    }
 }

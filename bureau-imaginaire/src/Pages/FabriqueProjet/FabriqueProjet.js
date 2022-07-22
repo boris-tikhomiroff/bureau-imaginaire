@@ -1,16 +1,14 @@
 import * as React from "react";
 
-import {Header} from "../../Components/Header/Header.js"
-import {Footer} from "../../Components/Footer/Footer.js"
-
 import FormFabriqueProjetComponent from "../../Components/FormFabriqueProjet/FormFabriqueProjet.js"
 
 export function FabriqueProjet() {
     return (
         <div>
-            <Header /> 
+            <main>
+                <h1 className="titre">La fabrique à projet</h1>
                 <FormFabriqueProjetComponent />
-            <Footer />
+            </main>
         </div>
     )
 }

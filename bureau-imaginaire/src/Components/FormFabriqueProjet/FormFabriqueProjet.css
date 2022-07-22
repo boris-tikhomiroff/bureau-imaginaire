@@ -91,6 +91,15 @@ label {
     text-align: center;
 }
 
+@media (max-width: 400px) {
+    .form-fabrique fieldset {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 /*--------------------------THEME--------------------------*/
 
 .field-theme {
