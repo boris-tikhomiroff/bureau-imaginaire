@@ -26,6 +26,7 @@ export function Header (){
                     <li><Link to="/TravaillerEnsemble" onClick={handleShowLinks}>Travailler ensemble</Link></li>
                     <li><Link to="/FabriqueProjet" onClick={handleShowLinks}>La Fabrique à Projets</Link></li>
                 </ul>
+                
                 <button className="mobile-menu-burger" onClick={handleShowLinks}>
                     <span className="burger-bar"></span>
                 </button>
